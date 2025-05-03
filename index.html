@@ -1,0 +1,920 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Showcase Your Project & Stand Out</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2rem;
+      animation: slideUp 0.6s ease-out;
+    }
+
+    h2 {
+      color: #1e3a8a;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+
+    .cta {
+      text-align: center;
+      background: #2563eb;
+      color: white;
+      padding: 1rem;
+      border-radius: 1rem;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(40px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Showcase Your Project & Stand Out in Interviews</h1>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2>1. Build a Meaningful Project</h2>
+      <ul>
+        <li>Focus on solving a real-world problem</li>
+        <li>Depth > Quantity: One strong project beats many clones</li>
+        <li>Add features that show initiative (auth, CI/CD, testing)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>2. Document from the Start</h2>
+      <ul>
+        <li>Record your development or explanations</li>
+        <li>Maintain a clear README</li>
+        <li>Track progress through GitHub issues or logs</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Demo Video</h2>
+      <ul>
+        <li>Create a 1–3 min screencast</li>
+        <li>Explain problem, solution, tech, unique features</li>
+        <li>Host it on YouTube or Loom</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>4. LinkedIn Strategy</h2>
+      <ul>
+        <li>Write a short, catchy post with visuals</li>
+        <li>Add a CTA like blog or demo link</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>5. Blog Post</h2>
+      <ul>
+        <li>Publish on Medium, Hashnode, Dev.to</li>
+        <li>Include stack, challenges, learnings, code</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>6. Host It Live</h2>
+      <ul>
+        <li>Use Vercel, Netlify, Heroku etc.</li>
+        <li>Make sure it's responsive & error-free</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Make a Portfolio</h2>
+      <ul>
+        <li>Showcase all your work in one place</li>
+        <li>Include links, blogs, resume, contact info</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>8. Contribute to Community</h2>
+      <ul>
+        <li>Join hackathons, open-source, tech forums</li>
+        <li>Engage on GitHub and LinkedIn</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>9. Be Interview Ready</h2>
+      <ul>
+        <li>Prepare a 2-min pitch</li>
+        <li>Explain your GitHub code confidently</li>
+        <li>Own your mistakes — show growth</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <p>✅ How many of you have a live project?</p>
+      <p>✅ Do you have a blog or video explaining it?</p>
+    </section>
+  </div>
+</body>
+
+</html> -->
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Showcase Your Project & Stand Out</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #eef2f3, #dfe9f3);
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: fadeIn 1.5s ease-in-out;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .scroll-indicator {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 5px;
+      background: #3b82f6;
+      z-index: 100;
+      transition: width 0.25s ease;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      animation: fadeSlideIn 1.2s ease-in-out;
+    }
+
+    section {
+      background: white;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      margin-bottom: 2.5rem;
+      transform: translateY(40px);
+      opacity: 0;
+      animation: sectionFadeUp 0.8s ease-out forwards;
+    }
+
+    section:nth-child(even) {
+      animation-delay: 0.2s;
+    }
+
+    h2 {
+      color: #1e40af;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 1.5rem;
+      font-size: 1.05rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .cta {
+      text-align: center;
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      color: white;
+      padding: 2rem;
+      border-radius: 1.5rem;
+      font-weight: bold;
+      font-size: 1.25rem;
+      animation: bounceIn 2s ease-in-out;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes fadeSlideIn {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes sectionFadeUp {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes bounceIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      50% { transform: scale(1.05); opacity: 1; }
+      100% { transform: scale(1); }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="scroll-indicator" id="scrollIndicator"></div>
+  <header>
+    <h1>Showcase Your Project & Stand Out in Interviews</h1>
+  </header>
+
+  <div class="container">
+
+    <section>
+      <h2><i class="ph-light ph-lightbulb"></i>1. Build a Meaningful Project</h2>
+      <ul>
+        <li>Focus on solving a real-world problem</li>
+        <li>Depth > Quantity: One strong project beats many clones</li>
+        <li>Add features that show initiative (auth, CI/CD, testing)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-pencil-simple"></i>2. Document from the Start</h2>
+      <ul>
+        <li>Record your development or explanations</li>
+        <li>Maintain a clear README</li>
+        <li>Track progress through GitHub issues or logs</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-play-circle"></i>3. Demo Video</h2>
+      <ul>
+        <li>Create a 1–3 min screencast</li>
+        <li>Explain problem, solution, tech, unique features</li>
+        <li>Host it on YouTube or Loom</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-link"></i>4. LinkedIn Strategy</h2>
+      <ul>
+        <li>Write a short, catchy post with visuals</li>
+        <li>Add a CTA like blog or demo link</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-article"></i>5. Blog Post</h2>
+      <ul>
+        <li>Publish on Medium, Hashnode, Dev.to</li>
+        <li>Include stack, challenges, learnings, code</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-upload"></i>6. Host It Live</h2>
+      <ul>
+        <li>Use Vercel, Netlify, Heroku etc.</li>
+        <li>Make sure it's responsive & error-free</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-folder"></i>7. Make a Portfolio</h2>
+      <ul>
+        <li>Showcase all your work in one place</li>
+        <li>Include links, blogs, resume, contact info</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-users"></i>8. Contribute to Community</h2>
+      <ul>
+        <li>Join hackathons, open-source, tech forums</li>
+        <li>Engage on GitHub and LinkedIn</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2><i class="ph-light ph-check-circle"></i>9. Be Interview Ready</h2>
+      <ul>
+        <li>Prepare a 2-min pitch</li>
+        <li>Explain your GitHub code confidently</li>
+        <li>Own your mistakes — show growth</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+      <p>✅ How many of you have a live project?</p>
+      <p>✅ Do you have a blog or video explaining it?</p>
+    </section>
+  </div>
+
+  <script>
+    window.onscroll = function () {
+      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      document.getElementById("scrollIndicator").style.width = scrolled + "%";
+    };
+  </script>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Showcase Flashcards</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #eef2f3, #dfe9f3);
+      color: #333;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+
+    .flashcard-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem auto;
+      max-width: 600px;
+      padding: 1rem;
+      position: relative;
+    }
+
+    .flashcard {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      text-align: center;
+      transform: scale(0.95);
+      opacity: 0;
+      transition: all 0.4s ease-in-out;
+      display: none;
+    }
+
+    .flashcard.visible {
+      transform: scale(1);
+      opacity: 1;
+      display: block;
+    }
+
+    .flashcard h2 {
+      font-size: 1.5rem;
+      color: #1e40af;
+      margin-bottom: 1rem;
+    }
+
+    .flashcard ul {
+      text-align: left;
+      list-style-type: square;
+      margin-left: 1.5rem;
+      font-size: 1.05rem;
+    }
+
+    .flashcard ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      color: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      font-size: 1.2rem;
+      text-align: center;
+      margin-bottom: 2rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .navigation {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 600px;
+      margin: 1rem auto;
+    }
+
+    .nav-btn {
+      background: #1e40af;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background 0.3s ease;
+    }
+
+    .nav-btn:hover {
+      background: #3749cc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Project Showcase Flashcards</h1>
+  </header>
+
+  <div class="flashcard-container">
+    <div class="cta-box">
+      👋 Let’s begin with a few questions!<br />
+      ✅ Do you have a live project?<br />
+      ✅ Do you blog or explain it on video?<br />
+      ✅ Is it in your LinkedIn or Portfolio?
+    </div>
+
+    <div class="flashcard visible">
+      <h2>1. Build a Meaningful Project</h2>
+      <ul>
+        <li>Focus on solving a real-world problem</li>
+        <li>One solid project > many clones</li>
+        <li>Show initiative with features like auth, CI/CD</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>2. Document from the Start</h2>
+      <ul>
+        <li>Record development journey</li>
+        <li>Keep a detailed README</li>
+        <li>Use GitHub issues/logs</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>3. Demo Video</h2>
+      <ul>
+        <li>1–3 min screencast</li>
+        <li>Explain problem, tech, features</li>
+        <li>Host on YouTube or Loom</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>4. LinkedIn Strategy</h2>
+      <ul>
+        <li>Write a catchy post with visuals</li>
+        <li>Add blog or demo as CTA</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>5. Blog Post</h2>
+      <ul>
+        <li>Publish on Medium, Hashnode, etc.</li>
+        <li>Explain stack, challenges, learnings</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>6. Host It Live</h2>
+      <ul>
+        <li>Use Vercel, Netlify, Heroku</li>
+        <li>Ensure it’s responsive & bug-free</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>7. Make a Portfolio</h2>
+      <ul>
+        <li>Central place for your projects</li>
+        <li>Include blog links, resume, contacts</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>8. Contribute to Community</h2>
+      <ul>
+        <li>Join hackathons, open source</li>
+        <li>Engage on GitHub, LinkedIn</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>9. Be Interview Ready</h2>
+      <ul>
+        <li>Prepare 2-min project pitch</li>
+        <li>Explain code with confidence</li>
+        <li>Own mistakes — show growth</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="navigation">
+    <button class="nav-btn" onclick="prevCard()">← Previous</button>
+    <button class="nav-btn" onclick="nextCard()">Next →</button>
+  </div>
+
+  <script>
+    const flashcards = document.querySelectorAll('.flashcard');
+    let currentIndex = 0;
+
+    function showCard(index) {
+      flashcards.forEach((card, i) => {
+        card.classList.remove('visible');
+        if (i === index) {
+          card.classList.add('visible');
+        }
+      });
+    }
+
+    function nextCard() {
+      if (currentIndex < flashcards.length - 1) {
+        currentIndex++;
+        showCard(currentIndex);
+      }
+    }
+
+    function prevCard() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        showCard(currentIndex);
+      }
+    }
+
+    showCard(currentIndex);
+  </script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Project Showcase Flashcards to help you organize and present your projects effectively." />
+  <title>Showcase Your Project & Stand Out</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #f3f4f6, #e5e7eb);
+      color: #333;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 2rem 1rem;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      animation: slideFade 1.5s ease-out;
+      width: 100%;
+      border-radius: 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+    }
+
+    .cta-box {
+      background: linear-gradient(135deg, #3b82f6, #60a5fa);
+      color: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      font-size: 1.3rem;
+      text-align: center;
+      margin: 2rem auto;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+      animation: popFade 1s ease-out;
+      max-width: 600px;
+    }
+
+    .flashcard-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      width: 100%;
+      margin-top: 2rem;
+      max-width: 600px;
+    }
+
+    .flashcard {
+      border-radius: 1.25rem;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+      padding: 2rem;
+      color: white;
+      text-align: center;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .flashcard h2 {
+      font-size: 1.75rem;
+      color: white;
+      margin-bottom: 1rem;
+    }
+
+    .flashcard ul {
+      text-align: left;
+      list-style-type: square;
+      margin-left: 1.5rem;
+      font-size: 1.1rem;
+      color: white;
+    }
+
+    .flashcard ul li {
+      margin-bottom: 0.6rem;
+    }
+
+    .flashcard:nth-child(1) {
+      background: linear-gradient(135deg, #f87171, #fbbf24);
+    }
+
+    .flashcard:nth-child(2) {
+      background: linear-gradient(135deg, #34d399, #10b981);
+    }
+
+    .flashcard:nth-child(3) {
+      background: linear-gradient(135deg, #60a5fa, #3b82f6);
+    }
+
+    .flashcard:nth-child(4) {
+      background: linear-gradient(135deg, #a78bfa, #7c3aed);
+    }
+
+    .flashcard:nth-child(5) {
+      background: linear-gradient(135deg, #f472b6, #ec4899);
+    }
+
+    .flashcard:nth-child(6) {
+      background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+    }
+
+    .flashcard:nth-child(7) {
+      background: linear-gradient(135deg, #facc15, #eab308);
+    }
+
+    .flashcard:nth-child(8) {
+      background: linear-gradient(135deg, #fb923c, #f97316);
+    }
+
+    .flashcard:nth-child(9) {
+      background: linear-gradient(135deg, #c084fc, #a855f7);
+    }
+
+    @keyframes popFade {
+      0% {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideFade {
+      0% {
+        transform: translateY(-20px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Project Showcase Flashcards</h1>
+  </header>
+
+  <div class="cta-box">
+    👋 Let’s begin with a few questions!<br />
+    ✅ Do you have a live project?<br />
+    ✅ Do you blog or explain it on video?<br />
+    ✅ Is it in your LinkedIn or Portfolio?
+  </div>
+
+  <div class="flashcard-container">
+    <div class="flashcard">
+      <h2>1. Build a Meaningful Project</h2>
+      <ul>
+        <li>Focus on solving a real-world problem</li>
+        <li>One solid project > many clones</li>
+        <li>Show initiative with features like auth, CI/CD</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>2. Document from the Start</h2>
+      <ul>
+        <li>Record development journey</li>
+        <li>Keep a detailed README</li>
+        <li>Use GitHub issues/logs</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>3. Demo Video</h2>
+      <ul>
+        <li>1–3 min screencast</li>
+        <li>Explain problem, tech, features</li>
+        <li>Host on YouTube or Loom</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>4. LinkedIn Strategy</h2>
+      <ul>
+        <li>Write a catchy post with visuals</li>
+        <li>Add blog or demo as CTA</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>5. Blog Post</h2>
+      <ul>
+        <li>Publish on Medium, Hashnode, etc.</li>
+        <li>Explain stack, challenges, learnings</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>6. Host It Live</h2>
+      <ul>
+        <li>Use Vercel, Netlify, Heroku</li>
+        <li>Ensure it’s responsive & bug-free</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>7. Make a Portfolio</h2>
+      <ul>
+        <li>Central place for your projects</li>
+        <li>Include blog links, resume, contacts</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>8. Contribute to Community</h2>
+      <ul>
+        <li>Join hackathons, open source</li>
+        <li>Engage on GitHub, LinkedIn</li>
+      </ul>
+    </div>
+
+    <div class="flashcard">
+      <h2>9. Be Interview Ready</h2>
+      <ul>
+        <li>Prepare 2-min project pitch</li>
+        <li>Explain code with confidence</li>
+        <li>Own mistakes — show growth</li>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
+
